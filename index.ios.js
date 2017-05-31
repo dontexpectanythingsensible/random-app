@@ -12,10 +12,15 @@ import {
   View
 } from 'react-native';
 
+import Lottery from './components/Lottery/Lottery';
+import CoinFlip from './components/CoinFlip';
+
 export default class randomapp extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <CoinFlip />
+
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>

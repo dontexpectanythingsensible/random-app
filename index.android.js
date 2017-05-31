@@ -12,10 +12,14 @@ import {
   View
 } from 'react-native';
 
+import Lottery from './components/Lottery/Lottery';
+
 export default class randomapp extends Component {
   render() {
     return (
       <View style={styles.container}>
+
+        <Lottery />
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
